@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title><%= full_title(yield(:title)) %></title>
     <%= render 'layouts/head' %>
+    <%= render 'layouts/shim' %>
   </head>
   <body>
     <%= render 'layouts/header' %>
