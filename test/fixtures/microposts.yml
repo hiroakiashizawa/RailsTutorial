@@ -24,3 +24,24 @@ micropost_<%= n %>:
   created_at: <%= 30.days.ago %>
   user: michael
 <% end %>
+
+ants:
+  content: "I love antman!!"
+  created_at: <%= 2.years.ago %>
+  user: archer
+
+sanos:
+  content: "He is very strong!! Terrible enemy for avengers"
+  created_at: <%= 3.days.ago %>
+  user: archer
+
+avengers:
+  content: "They are sacrificed own lives,  and battle for the universe. "
+  created_at: <%= 10.minutes.ago %>
+  user: lana
+
+ironman:
+  content: "He is huge company_president, but in fact, is also ironman"
+  created_at: <%= 4.hours.ago %>
+  user: lana
+
